@@ -2,30 +2,31 @@
 /* CSS Document */
 
 body{
-	padding:0；
-	margin：0；
+	padding:0;
+	margin:0;
 	}
 .content{
 	width:1000px;
 	mini-width:1000px;
 	background:pink;
-	margin:0 auto；
+	margin:0 auto;
 	}
 .header{
 	width:100%;
-	heighr:100px;
+	height:100px;
 	background:#E1E1E1;
 	}
 .header img{
 	float:left;
 	}
 .quickLink{
+
 	width:30%;
 	height:100px;
 	float:right;
-	text-align::center;
+	text-align:center;
 	margin-top:32px;
-	}
+	}	
 .quickLink a{
 	color:#5F69E7;
 	text-decoration:none;
@@ -34,6 +35,9 @@ body{
 	height:36px;
 	font-size:12px;
 	line-height:36px;
-	border:1px #5F69E1 solid;
+	border:1px #5F69E7 solid;
+	
 	}
-
+.quickLink a:hover{
+	box-shadow: 0 0 10px #A3D2E0;
+	}
